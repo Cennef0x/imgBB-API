@@ -1,3 +1,4 @@
+#Copyright (C) 2020  Cennef0x
 This program is free software: you can redistribute it and/or modify it
 
 In this script I used imgBB API 
