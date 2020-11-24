@@ -28,3 +28,19 @@ Image - The image will be encoded in base 64 before we send the request
 Name - The name is generated randomly
 
 Expiration - The expiration is set to 7 days (604800 seconds)
+
+-------------------------------------------------------------------------------------------------------------------
+
+How does it work ?
+
+It's not that hard :
+
+STEP 1 - Install the requirements
+
+STEP 2 - Add your imgBB API KEY at line 20
+
+STEP 3 - start the script (python screenshoter.py)
+
+STEP 4 - input your image file path & press ENTER
+
+STEP 5 - The link is now printed into the console
