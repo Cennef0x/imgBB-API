@@ -18,6 +18,8 @@ The name of the file, this is automatically detected if uploading a file with a 
 expiration (optional)
 Enable this if you want to force uploads to be auto deleted after certain time (in seconds 60-15552000)
 
+-------------------------------------------------------------------------------------------------------------------
+
 Key - You must put your own API KEY into the code
 
 Image - The image will be encoded in base 64 before we send the request
