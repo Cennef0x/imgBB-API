@@ -50,7 +50,7 @@ def upload_IMG(img_location):
 		if "dict" in str(TypeOfVar): # check the type of var
 			data_response = json_response2.get('data') 
 			final_Url = data_response.get('url_viewer')
-			return final_Url
+			print(final_Url)
 		else:
 			print("ERROR the var is not dict but {}".format(TypeOfVar))
 	else:
