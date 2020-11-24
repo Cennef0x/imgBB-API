@@ -1,3 +1,4 @@
+#Copyright (C) 2020  Cennef0x
 import pyscreenshot as ImageGrab
 import os 
 import time
@@ -6,6 +7,12 @@ import random
 import base64
 import json 
 
+setup(
+    name = 'screenshoter.py',
+    version = '0.0.1',
+    Author = 'Cennef0x',
+    GitHub = 'https://github.com/Cennef0x?tab=repositories'
+)
 
 
 def upload_IMG(img_location):
@@ -34,6 +41,7 @@ def upload_IMG(img_location):
       "mime": "image/png",
       "extension": "png",
     }
+	#Copyright (C) 2020  Cennef0x
 	response = requests.post(img_Url, data=params) # the request is sent here
 	if response.ok: # if code 200 find the link in the response and return it
 		json_response = response.text 
