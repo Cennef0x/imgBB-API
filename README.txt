@@ -6,6 +6,7 @@ https://api.imgbb.com/
 The script use all the following parameters :
 
 Parameters
+
 key (required)
 The API key.
 
