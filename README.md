@@ -1,4 +1,4 @@
-#Copyright (C) 2020  Cennef0x
+# Copyright (C) 2020  Cennef0x
 # imgBB API Script
 imgBB API / send screenshots & get the link
 
