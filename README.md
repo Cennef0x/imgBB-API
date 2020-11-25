@@ -1,4 +1,7 @@
 #Copyright (C) 2020  Cennef0x
+# imgBB API Script
+imgBB API / send screenshots & get the link
+
 This program is free software: you can redistribute it and/or modify it
 
 In this script I used imgBB API 
