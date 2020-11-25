@@ -45,7 +45,7 @@ def upload_IMG(img_location):
 	response = requests.post(img_Url, data=params) # the request is sent here
 	if response.ok: # if code 200 find the link in the response and return it
 		json_response = response.text 
-		json_response2 = json.loads(json_response) transform the str into dict
+		json_response2 = json.loads(json_response) # transform the str into dict
 		TypeOfVar = type(json_response2)
 		if "dict" in str(TypeOfVar): # check the type of var
 			data_response = json_response2.get('data') 
